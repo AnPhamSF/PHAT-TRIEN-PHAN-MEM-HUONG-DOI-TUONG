@@ -97,6 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
+            android:backgroundTint="@color/background"
             android:text="ĐĂNG NHẬP" />
 
     </LinearLayout>
@@ -124,7 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:text="Đăng ký tại đây"
+            android:text="Đăng ký"
             android:textColor="@color/background"
             android:textStyle="bold" />
     </LinearLayout>

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.devedu"
+    namespace = "com.deveduadmin"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.devedu"
+        applicationId = "com.deveduadmin"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -46,17 +46,13 @@ dependencies {
     implementation(libs.firebase.auth)
     implementation(libs.firebase.database)
     implementation(libs.firebase.storage)
-    implementation(libs.navigation.fragment)
-    implementation(libs.navigation.ui)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
-    implementation ("com.github.ismaeldivita:chip-navigation-bar:1.4.0")
-    implementation ("org.jetbrains.kotlin:kotlin-stdlib:1.4.0")
-
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation ("com.squareup.picasso:picasso:2.8")
-    implementation ("com.google.android.exoplayer:exoplayer:2.14.1")
+    implementation ("com.google.android.gms:play-services-auth:20.4.1")
+    implementation ("androidx.core:core-ktx:1.7.0")
 }
 
